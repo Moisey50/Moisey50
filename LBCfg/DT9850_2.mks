@@ -1,0 +1,18 @@
+// DT9854 programming script for Laser Burning project
+
+
+SELECT (964,534) VALUE=Station4
+WAIT 200
+
+MOUSEMOVE ABSOLUTE (1055,500)
+WAIT 500
+MOUSECLICK
+WAIT 200
+MOUSEMOVE ABSOLUTE (1177,456)
+WAIT 500
+MOUSECLICK
+
+
+//FINDWINDOW Device Manager
+
+//START C:/Program Files/Moxa/UPortDriver/mxupcfg.exe

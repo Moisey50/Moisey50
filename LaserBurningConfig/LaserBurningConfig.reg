@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\LaserBurningConfig.Application = LaserBurningConfig Application
+
+
+HKEY_CLASSES_ROOT\LaserBurningConfig.Application\CLSID = {68f04c6c-e999-4aa6-87eb-f5975a88027e}
+
+HKEY_CLASSES_ROOT\CLSID\{68f04c6c-e999-4aa6-87eb-f5975a88027e} = LaserBurningConfig Application
+HKEY_CLASSES_ROOT\CLSID\{68f04c6c-e999-4aa6-87eb-f5975a88027e}\ProgId = LaserBurningConfig.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{68f04c6c-e999-4aa6-87eb-f5975a88027e}\LocalServer32 = LaserBurningConfig.EXE
